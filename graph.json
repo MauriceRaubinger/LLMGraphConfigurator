@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "type": "input",
+      "content": []
+    },
+    {
+      "id": 2,
+      "type": "memory",
+      "content": []
+    },
+    {
+      "id": 3,
+      "type": "query",
+      "content": []
+    },
+    {
+      "id": 4,
+      "type": "memory",
+      "content": []
+    },
+    {
+      "id": 5,
+      "type": "query",
+      "content": []
+    },
+    {
+      "id": 6,
+      "type": "output",
+      "content": []
+    }
+  ],
+  "connections": [
+    {
+      "from": 1,
+      "to": 2,
+      "output_type": "output"
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "output_type": "output"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "output_type": "output"
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "output_type": "output"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "output_type": "output"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "output_type": "output"
+    }
+  ]
+}
