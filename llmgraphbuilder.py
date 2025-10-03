@@ -11,8 +11,8 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 # --- Environment Configuration ---
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCVgwFUM5ZirVMnpMf35uPvqXHULAF2mdA"
+os.environ["LANGSMITH_API_KEY"] = "key"
+os.environ["GOOGLE_API_KEY"] = "key"
 
 # --- LLM and Embeddings Initialization ---
 llm = init_chat_model("gemini-2.0-flash-lite", model_provider="google_genai")
